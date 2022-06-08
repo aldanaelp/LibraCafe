@@ -1,0 +1,371 @@
+body {
+    text-align: center;
+    background-color: #cddaad;
+}
+h1 {
+    color: #0f310f;
+    margin-top: 50px;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 60px;
+    grid-area: hist;
+    }
+.img1
+{
+    display: grid;
+    grid-area: img;
+    padding-left: 200px;
+}
+
+.indexh2 
+{
+    color: rgb(72, 83, 59);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    grid-area: subtitle;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    
+    padding-top: 50px;
+   }
+h2
+{
+    display: grid;
+    color: rgb(72, 83, 59);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+.proph2
+{
+    color: #0f310f;
+    padding-top: 15px;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 30px;
+
+}
+.propul
+{
+    padding-top: 20px;
+}
+h4
+{
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #0f310f;
+  }
+.linav {
+    font-family: noto sans;
+    margin-top: 30px;
+    display: inline;
+    padding: 10px;
+    }
+
+.nav {
+    margin-left: 850px;
+}
+footer
+{
+    margin-top: 50px;
+    color: rgb(72, 83, 59);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+h2 
+{
+    color: rgb(72, 83, 59);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+.proplist {
+    text-align: left;
+    list-style: circle;
+    color: rgb(50, 63, 35);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+th
+{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 24px;
+    color: rgb(72, 83, 59);
+}
+td
+{
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(59, 70, 47);
+}
+.tablelist
+{
+    text-align: left;
+    list-style: disc;
+}
+form
+{
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(59, 70, 47);
+}
+p
+{
+    padding-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(59, 70, 47);
+}
+.h1historia
+{
+    color: #0f310f;
+}
+.phistoria
+{
+    padding: 35px;
+    color: #0f310f ;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    grid-area: subt;
+}
+
+.h1index
+{
+    display: grid;
+    grid-area: title;
+    font-size: 80px;
+    
+}
+#grid
+{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 700px 620px;
+    grid-template-rows: 200px 300px;
+    grid-template-areas: "title title"
+                         "subtitle img";
+}
+
+.divhistoria
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5fr) ;
+    grid-template-areas: "hist hist"
+                          "subt subt"
+                          "img1 txt1"
+                          "txt2 img2"
+                          "img3 txt3";
+    align-items: center;
+}
+.coffee1
+{
+    grid-area: img1;
+    align-self: center;
+    padding-left: 200px;
+}
+.coffee2
+{
+    grid-area: img2;
+    align-items: center;
+    padding-left: 100px;
+
+}
+.coffee3
+{
+    grid-area: img3;
+    align-self: center;
+    padding-left: 200px;
+
+}
+.p1
+{
+   grid-area: txt1; 
+   font-size: 20px;
+   text-align: center;
+   align-self: center;
+   padding: 120px;
+   background-color: #7db17d;
+}
+.p2
+{
+   grid-area: txt2;
+   font-size: 20px;
+   text-align: center;
+   align-self: center;
+   padding: 100px;
+   background-color: #7db17d;
+}
+.p3
+{
+   grid-area: txt3;
+   font-size: 20px;
+   text-align: center;
+   align-self: center;
+   padding: 120px;
+   background-color: #7db17d;
+}
+.libra
+{
+    color: #0f310f;
+    font-family: 'Bodoni Moda', serif;
+}
+.indexdiv
+{
+    background-color: #7c6f45;
+    padding-bottom: 100px;
+}
+.subindex
+{
+    color: #0f310f;
+    padding-top: 50px;
+}
+.divh2
+{
+    color: #0f310f;
+    padding-bottom: 50px;
+    
+}
+
+
+@media only screen and (max-width:600px)
+{
+.body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.nav 
+      {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;    
+    align-self: center;
+    }
+.linav {
+    display: flex;
+    flex-direction: column;
+    font-family: noto sans;
+    justify-items: center;    
+    align-self: center;
+    margin-top: 5px;
+    padding: 5px;
+    }
+.subindex
+{
+    color: #0f310f;
+    padding-top: 10px;
+    font-size: 40px;
+}
+.h1index
+{
+    display: grid;
+    grid-area: title;
+    font-size: 60px;
+    padding-left: 30px;
+    
+}
+.divh2
+{
+    color: #0f310f;
+    padding-bottom: 50px;
+    font-size: 16px;
+    
+}
+#grid
+{
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: 200px 300px;
+    grid-template-areas: "title title"
+                         "subtitle img";
+}
+.indexh2 
+{
+    color: rgb(72, 83, 59);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    grid-area: subtitle;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    
+    padding-top: 50px;
+   }
+   .img1
+{
+    display: grid;
+    grid-area: img;
+    padding-left: 50px;
+}
+.divhistoria
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5fr) ;
+    grid-template-areas: "hist hist"
+                          "subt subt"
+                          "img1 txt1"
+                          "txt2 img2"
+                          "img3 txt3";
+    align-items: center;
+}
+.coffee1
+{
+    grid-area: img1;
+    align-self: center;
+    width: 200px;
+    padding: 0px;
+}
+.coffee2
+{
+    grid-area: img2;
+    align-items: center;
+    width: 200px;
+    padding: 0px;
+}
+.coffee3
+{
+    grid-area: img3;
+    align-self: center;
+    width: 200px;
+    padding: 0px;
+}
+.p1
+{
+   grid-area: txt1; 
+   font-size: 16px;
+   text-align: center;
+   align-self: center;
+   padding: 50px;
+   background-color: #7db17d;
+   width: 200px;
+}
+.p2
+{
+   grid-area: txt2;
+   font-size: 16px;
+   text-align: center;
+   align-self: center;
+   padding: 50px;
+   background-color: #7db17d;
+   width: 200px;
+}
+.p3
+{
+   grid-area: txt3;
+   font-size: 16px;
+   text-align: center;
+   align-self: center;
+   padding: 50px;
+   background-color: #7db17d;
+   width: 200px;
+}
+.phistoria
+{
+    padding: 35px;
+    color: #0f310f ;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    grid-area: subt;
+}
+
+
+}
