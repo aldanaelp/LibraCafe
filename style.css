@@ -217,7 +217,7 @@ p
 }
 .divh2
 {
-    color: #0f310f;
+     background-image: linear-gradient(rgb(19, 73, 19), rgb(57, 104, 57));
     padding-bottom: 50px;
     
 }
