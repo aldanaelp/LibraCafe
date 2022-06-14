@@ -1,7 +1,46 @@
-/*inicio*/
 body {
     text-align: center;
     background-color: #cddaad;
+}
+
+/*index*/
+
+a
+{
+    color: #c1caaa;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: #2a5c2a;
+    transition: all 1s;
+}
+.container-fluid
+{
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    padding-right: 64.3%;
+    background-color: #0f310f;
+}
+
+.navbar-brand
+{
+    color: #0f310f;
+    font-family: noto sans;
+    list-style: none;
+    display: inline-block;
+    padding-inline: 10px;
+    text-decoration: none;
+}
+
+.nav-item
+{
+    color: #0f310f;
+    list-style: none;
+    display: inline-block;
+    padding-inline: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
 }
 h1 {
     color: #0f310f;
@@ -14,46 +53,28 @@ h1 {
 {
     display: grid;
     grid-area: img;
-    padding-left: 200px;
-    
-}
-.h1index
-{
-    display: grid;
-    grid-area: title;
-    padding-left: 400px;
-    font-size: 80px;
-    color: #0f310f;
-    
-}
-.imgindex
-{
-    display: inline;
-    align-self: center;
+    padding-left: 150px;
 }
 .imgindex:hover
 {
     grid-area: img;
-    transform: scale(2,2);
-    transition: 1s;
+    transform: scale(1.5,1.5);
+    transition: 0.5s;
 }
-
-
 .indexh2 
 {
     color: rgb(72, 83, 59);
     font-family: 'Noto Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16.5px;
     grid-area: subtitle;
     padding-bottom: 100px;
     padding-left: 100px;
-    
     padding-top: 50px;
    }
 .indexdiv
 {
-    background-color: #7c6f45;
-    padding-bottom: 100px;
+    background-color: #737e4e;
+    padding-bottom: 150px;
 }
 .subindex
 {
@@ -62,30 +83,12 @@ h1 {
 }
 .divh2
 {
-    font-size: 20px;
     color: #0f310f;
     padding-bottom: 50px;
+    padding-top: 25px;
     
 }
-#grid
-{
-    padding-top: 50px;
-    display: grid;
-    grid-template-columns: 700px 620px;
-    grid-template-rows: 200px 300px;
-    grid-template-areas: "title title"
-                         "subtitle img";
-}
-.container-fluid
-   {
-background-color: #417e41;
-   }
-.navbar-brand
-{
-    color: #0f310f;
-    font-family: noto sans;
-}
-   h2
+h2
 {
     display: grid;
     color: rgb(72, 83, 59);
@@ -108,10 +111,8 @@ h4
 {
     font-size: 16px;
 }
-a {
-    text-decoration: none;
-    color: #0f310f;
-  }
+
+
 
 footer
 {
@@ -133,16 +134,44 @@ h2
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
 }
+/*cafe*/
+.table
+{
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
 th
 {
     font-family: 'Bodoni Moda', serif;
     font-size: 24px;
-    color: rgb(72, 83, 59);
+    color: #0f310f;
+    background-color: #c1caaa;
 }
+
 td
 {
     font-family: 'Noto Sans', sans-serif;
-    color: rgb(59, 70, 47);
+    color: #0f310f;
+    background-color: #c1caaa;
+    padding: 10px;
+
+}
+.tipo
+{
+    width: 200px;
+}
+.presentacion
+{
+    width: 250px;
+}
+.descripcion
+{
+    width: 300px;
+}
+.td
+{
+    font-weight: bold;
 }
 .tablelist
 {
@@ -186,6 +215,7 @@ p
     font-family: 'Noto Sans', sans-serif;
     color: rgb(59, 70, 47);
 }
+/*Historia*/
 .h1historia
 {
     color: #0f310f;
@@ -199,8 +229,22 @@ p
     grid-area: subt;
 }
 
-
-
+.h1index
+{
+    display: grid;
+    grid-area: title;
+    font-size: 80px;
+    
+}
+#grid
+{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 700px 620px;
+    grid-template-rows: 200px 300px;
+    grid-template-areas: "title title"
+                         "subtitle img";
+}
 
 .divhistoria
 {
@@ -224,7 +268,7 @@ p
 {
     grid-area: img2;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 150px;
 
 }
 .coffee3
@@ -268,6 +312,8 @@ p
 }
 
 
+
+
 @media only screen and (max-width:600px)
 {
 .body
@@ -277,23 +323,7 @@ p
     justify-content: center;
     justify-items: center;
 }
-.nav 
-      {
-    margin-left: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;    
-    align-self: center;
-    }
-.linav {
-    display: flex;
-    flex-direction: column;
-    font-family: noto sans;
-    justify-items: center;    
-    align-self: center;
-    margin-top: 5px;
-    padding: 5px;
-    }
+
 .subindex
 {
     color: #0f310f;
@@ -411,6 +441,19 @@ p
     font-size: 16px;
     grid-area: subt;
 }
-
+/*Contacto*/
+#form
+{
+    display: inline-block;
+    color:#417e41;
+    font-family: noto sans;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 60%
+}
 
 }
